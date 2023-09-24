@@ -24,9 +24,10 @@
         <label for="gender_f">Female</label>
         
         <label for="cars">Car Brands:</label>
-        <select id="cars" name="cars" required>
-            <option value="">--Please choose an option--</option>
-            <!-- Add your car brand options here -->
+        <select id="cars" name="cars" placeholder="--Please choose an option--" required>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+			<option value="Porche">Porche</option>
         </select>
         
         <label for="age">Age:</label>
@@ -36,7 +37,7 @@
         <input type="date" id="dob" name="dob" required>
         
         <label for="tel">Phone Number:</label>
-        <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx">
+        <input type="tel" id="tel" name="tel"  placeholder="xxx-xxx-xxxx">
         
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" placeholder="Password" required>
